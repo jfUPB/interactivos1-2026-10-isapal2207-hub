@@ -3,7 +3,9 @@
 ## Bitácora de proceso de aprendizaje
 ACTIVIDAD 1
 ¿Qué es un sistema físico interactivo?
+ Es un sistema que mezcla componentes físicos con tecnología digital y reacciona en tiempo real a las acciones del usuario, utilizando sensores para identificar lo que sucede en el entorno. Después de procesar la información obtenida, produce una respuesta perceptible o tangible, como luces, sonidos, movimientos o variaciones en una pantalla. De esta manera, se establece una interacción directa entre el individuo y el sistema.
 ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
+Los sistemas físicos interactivos tienen la capacidad de ser utilizados en el diseño de experiencias inmersivas en las que el usuario no solamente observa, sino que se involucra activamente con su cuerpo y su entorno. Ejemplos de esto son los videojuegos con sensores de movimiento, las instalaciones interactivas que fusionan animación, sonido y respuesta física, así como las experiencias de realidad aumentada o virtual.
 
 ACTIVIDAD 2
 ¿Qué es el diseño/arte generativo?
@@ -98,3 +100,4 @@ while True:
 
 
 ## Bitácora de reflexión
+
