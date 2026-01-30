@@ -21,7 +21,8 @@ Aparece una carita feliz en el microbit y un corazon, despues, vuelve a aprecer 
 
 ACTIVIDAD 4
 1.¿Por qué no funcionaba el programa con was_pressed() y por qué funciona con is_pressed()? Explica detalladamente.
- 
+  Cuando se usa wasPressed(), el pulso se detecta momentáneamente y solo se vuelve verdadero durante un breve período de tiempo, por lo que no representa una acción continua en la pantalla. Por el contrario, el método isPressed() devuelve continuamente verdadero mientras se presiona el botón, proporcionando una respuesta más fluida y continua del microbit porque no se limita a un solo pulso, sino que continúa enviando datos durante la duración que se presiona el botón.
+
 ## Bitácora de aplicación 
 PROGRAMA DE P5.JS
 
@@ -102,5 +103,10 @@ while True:
 
 
 ## Bitácora de reflexión
+ACTIVIDAD 6
+Vas a repasar lo aprendido en esta unidad. Regresa a la actividad 4 y trata de explicar en tus propias palabras de la manera más detallada que puedas cómo funciona el sistema físico interactivo. Analiza cada parte del código y su función dentro del sistema. Si aún tienes dudas sobre alguna parte, aprovecha para aclararlas.
+
+El codigo muestra en vista previa un cuadrado verde, que cuando se presiona la tecla A en el microbit, cambia a color rojo 
+
 
 
