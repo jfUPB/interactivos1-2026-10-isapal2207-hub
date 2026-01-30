@@ -9,7 +9,9 @@ Los sistemas físicos interactivos tienen la capacidad de ser utilizados en el d
 
 ACTIVIDAD 2
 ¿Qué es el diseño/arte generativo?
+El diseño o arte generativo es un tipo de creación en el que la persona que diseña o crea establece reglas, algoritmos o sistemas (usualmente a través de programación) y es el sistema mismo el que produce las formas, imágenes, sonidos o animaciones, fusionando la creatividad humana con procesos computacionales para dar origen a obras dinámicas y siempre cambiantes.
 ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
+Puedo aplicar el diseño y arte generativo para crear experiencias interactivas y videojuegos dinámicos, donde los escenarios, animaciones, efectos visuales o narrativas se generen y transformen en tiempo real según las acciones del usuario, permitiéndome diseñar mundos más inmersivos.
 
 AVTIVIDAD 3
 1.Sacude el micro:bit. ¿Qué pasa?
@@ -100,4 +102,5 @@ while True:
 
 
 ## Bitácora de reflexión
+
 
