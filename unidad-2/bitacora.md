@@ -139,7 +139,8 @@ Algo que aveces se me dificulta es diferenciar algunas cosas de la primera activ
 
 Maquina de estados:
 
-<img width="356" height="438" alt="image" src="https://github.com/user-attachments/assets/6789a749-9100-4c09-9f93-d4120f31b541" />
+<img width="392" height="438" alt="image" src="https://github.com/user-attachments/assets/8164da52-dd10-447a-828a-2742cdea5c9f" />
+
 
 
 Codigo del Programa Para el ScapeRoom:
@@ -494,6 +495,7 @@ function connectBtnClick() {
     port.close();
   }
 }
+
 
 
 
