@@ -139,7 +139,8 @@ Algo que aveces se me dificulta es diferenciar algunas cosas de la primera activ
 
 Maquina de estados:
 
-[![](https://img.plantuml.biz/plantuml/svg/TP9TIyCm68Nl0_aFBxrIOLDlbSasTJ2O8EhTA2DiSGQQfEJ33yJ_RfEiQLEQNeNtFCqvESbS6wACvHL6suiI9fCxk9VYdHsj8dic1KOODOYXwHX-COBcQ_zvajeeefxPDwse3bewyzXQx1NbL3IUS0F5eiYI3qnp9Yppt3BFBHGdwernwi7NmkLrQCWy5YielIJzSRJj3piFZFwSGLg5xyowhLxeKL7DFacNvTJTG1wqzwXhgeA5j2PewMm4SnwdPG6N87PrMyiChc_Xm7HTaP-f_f1VPwlrPhEDH7cUjKXFrhkY4NR5H2m-1kbSO0PNPNeTO-SCIhjNM_2Whsoqc25BO3Iduk0V-3y0)](https://editor.plantuml.com/uml/TP9TIyCm68Nl0_aFBxrIOLDlbSasTJ2O8EhTA2DiSGQQfEJ33yJ_RfEiQLEQNeNtFCqvESbS6wACvHL6suiI9fCxk9VYdHsj8dic1KOODOYXwHX-COBcQ_zvajeeefxPDwse3bewyzXQx1NbL3IUS0F5eiYI3qnp9Yppt3BFBHGdwernwi7NmkLrQCWy5YielIJzSRJj3piFZFwSGLg5xyowhLxeKL7DFacNvTJTG1wqzwXhgeA5j2PewMm4SnwdPG6N87PrMyiChc_Xm7HTaP-f_f1VPwlrPhEDH7cUjKXFrhkY4NR5H2m-1kbSO0PNPNeTO-SCIhjNM_2Whsoqc25BO3Iduk0V-3y0)
+<img width="356" height="438" alt="image" src="https://github.com/user-attachments/assets/6789a749-9100-4c09-9f93-d4120f31b541" />
+
 
 Codigo del Programa Para el ScapeRoom:
 
@@ -493,5 +494,6 @@ function connectBtnClick() {
     port.close();
   }
 }
+
 
 
