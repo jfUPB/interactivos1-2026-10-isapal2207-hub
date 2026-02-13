@@ -262,3 +262,7 @@ Codigo del Programa Para el ScapeRoom:
 
 
 ## Bitácora de reflexión
+## Actividad 5
+Explica cómo resolviste el reto.
+
+Coloca el código final en tu bitácora tanto para el micro:bit como para p5.js.
