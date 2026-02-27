@@ -141,7 +141,7 @@
 
 # ACTIVIDAD 2
 
-## main.py
+ main.py:
 
 from microbit import *
 from fsm import FSMTask, ENTRY, EXIT
@@ -228,7 +228,7 @@ while True:
     temporizador.update()
     utime.sleep_ms(20)      
 
-## fsm.py
+fsm.py
 import utime
 
 ENTRY = "ENTRY"
@@ -287,7 +287,7 @@ class FSMTask:
 
 
 
-## utils.py:
+utils.py:
 from microbit import Image
 
 def make_fill_images(on='9', off='0'):
@@ -405,7 +405,7 @@ while True:
     temporizador.update()
     utime.sleep_ms(20)
 
-## fsm.py:
+ fsm.py:
 
 import utime
 
@@ -463,7 +463,7 @@ class FSMTask:
             if self._state:
                 self._state(ev)
 
-## utils.py:
+ utils.py:
 from microbit import Image
 
 def make_fill_images(on='9', off='0'):
@@ -487,7 +487,7 @@ FILL = make_fill_images()
 
 ## P5.js
 
-## sketch.js:
+sketch.js:
 
 const TIMER_LIMITS = {
   min: 15,
@@ -704,7 +704,7 @@ function connectBtnClick() {
     port.close();
   }
   
-  ## index.html:
+  index.html:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -726,7 +726,7 @@ function connectBtnClick() {
   </body>
 </html>
 
-## fsm.js:
+fsm.js:
 
 const ENTRY = "ENTRY";
 const EXIT = "EXIT";
@@ -795,8 +795,8 @@ class FSMTask {
 
 # ACTIVIDAD 5
 
-## MICROBIT (REMOTO)
-## main.py (remoto):
+#MICROBIT (REMOTO)
+ main.py (remoto):
 from microbit import *
 import radio
 
@@ -808,15 +808,15 @@ display.show(Image.HAPPY)
 
 while True:
   
-   # Botón A
+
    if button_a.was_pressed():
        radio.send("A")
   
-   # Botón B
+
    if button_b.was_pressed():
        radio.send("B")
   
-   # Shake = Start / Pause
+
    if accelerometer.was_gesture("shake"):
        radio.send("S")
   
@@ -930,7 +930,7 @@ while True:
 
  ## P5.JS (NO SE MODIFICA FSM)
 
-## sketch.js: 
+sketch.js: 
 function draw() {
  temporizador.update();
  renderer.get(temporizador.currentState)?.();
@@ -958,4 +958,5 @@ function draw() {
 
 
  Durante el desarrollo de esta actividad seguimos un proceso progresivo: primero investiguamos en la sección Reference → Radio del editor de microbit para comprender cómo funcionaba la comunicación inalámbrica y descubrimos que ambos dispositivos debían compartir el mismo radio group. Hicimos pruebas básicas enviando mensajes simples entre los dos microbits para verificar que la comunicación funcionara antes de integrarla al proyecto principal. Luego configuramos el microbit remoto para enviar por radio los eventos correspondientes a los botones A, B y al gesto shake, y modificamos el microbit local para que recibiera esos mensajes con radio.receive() y los reenviara tanto a la máquina de estados como por UART hacia p5.js, manteniendo intacta la implementación original del temporizador. Durante el proceso tuvimos varios errores: al principio los microbits no se comunicaban porque tenían diferente radio group; también nos paso que el microbit local recibía el mensaje remoto pero p5.js no reaccionaba porque no estaba reenviando el mensaje por uart.write(); y en algunas pruebas el temporizador parecía reaccionar doble cuando ambos microbits enviaban eventos al mismo tiempo. Con esta actividad aprendimos cómo funciona la comunicación por radio entre microbits, la importancia de mantener un protocolo de comunicación estable sin modificar la lógica interna del sistema, y cómo la modularidad permite escalar un proyecto agregando nuevas funcionalidades sin alterar su estructura principal.
+
 
