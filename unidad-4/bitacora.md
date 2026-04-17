@@ -1,5 +1,7 @@
 # Unidad 4
 
+Se cierra el plazo de la unidad 4. La semana 12 del curso
+
 ## Bitácora de proceso de aprendizaje
 # ACTIVIDAD 1
 	ESTUDIANTES@DESKTOP-N4RMBH7 MINGW64 ~
