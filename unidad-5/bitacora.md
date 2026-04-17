@@ -1,4 +1,7 @@
 # Unidad 5
+
+Se cierra el plazo de la unidad 4. La semana 12 del curso
+
 ## Bitácora de proceso de aprendizaje
 
 
